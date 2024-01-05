@@ -1,0 +1,53 @@
+body {
+        font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 20px;
+        background-color: #f8f8f8;
+    }
+    
+    form {
+        max-width: 400px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h2 {
+        color: #3498db;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 8px;
+        color: #333;
+    }
+    
+    input, select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+    
+    input[type="radio"] {
+        margin-top: 6px; /* Adjust vertical alignment of radio buttons */
+    }
+    
+    input[type="submit"] {
+        background-color: #3498db;
+        color: #fff;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+        padding: 12px;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #2980b9;
+    }
+    

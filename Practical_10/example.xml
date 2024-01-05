@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library SYSTEM "library.dtd">
+<library>
+    <book>
+        <title>Introduction to XML</title>
+        <author>John Doe</author>
+        <publication-year>2022</publication-year>
+    </book>
+    <book>
+        <title>XML and DTD Basics</title>
+        <author>Jane Smith</author>
+        <publication-year>2021</publication-year>
+    </book>
+</library>

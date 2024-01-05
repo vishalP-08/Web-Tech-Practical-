@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap">
+
+</head>
+<body>
+
+    <h2>Simple Form</h2>
+
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label>Programming Language:</label>
+        <input type="radio" id="java" name="programming-language" value="java">
+        <label for="java">Java</label>
+        <input type="radio" id="python" name="programming-language" value="python">
+        <label for="python">Python</label>
+        <input type="radio" id="javascript" name="programming-language" value="javascript">
+        <label for="javascript">JavaScript</label>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
